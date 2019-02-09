@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Thasadith);
+
+body  {
+	font-family: Thasadith, Hevetical;
+	font-size: 17px;
+	line-height: 1.6em;
+	margin: 0;
+	padding: 0;
+}
+
+.overview {
+	color:#fff;
+	text-align: center;
+	position: absolute;
+	top:30%;
+	width:100%;
+}
+
+button {
+	/*Gets rid of underline on link*/
+	text-decoration: none;
+	/*Adds space between buttons*/
+	margin: 5px;
+	color:white;
+	background: transparent;
+}
+
+button:hover {
+	background: #fff;
+	color: #000;
+}
+
+
+.link {
+	border: #ccc 1px solid;
+	padding: 10px 15px;
+	border-radius:8px;
+}
+
+.name {
+	font-size: 60px;
+}
+
+.description {
+   word-wrap: break-word;
+}
+
+#particles-js {
+	background-image:url('../images/jellyfish in ocean.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height:100%;
+	width:100%;
+}
+
+@media only screen and (min-width:550px) {
+    .overview {
+		width: 100%;
+		margin: 0;
+    }
+}
